@@ -1,0 +1,42 @@
+#map{
+	margin: 50px auto;
+}
+form{
+	padding-bottom: 50px;
+}
+#bg{
+
+background: linear-gradient(to right, #f46b45, #eea849);
+height: 300px;
+
+}
+#bg h1{
+	
+	text-align: center;
+	color: white;
+	line-height: 300px;
+}
+
+section{
+	padding:50px 0;
+}
+.info{
+	margin-bottom: 30px;
+}
+.info li{
+	color: #f46b45;
+}
+.info li:hover{
+	background: linear-gradient(to right, #f46b45, #eea849);
+	color: white; 
+}
+
+.nd p{
+	text-align: left;
+
+}
+.nd h4{
+	padding-bottom: 10px;
+
+	border-bottom: 2px solid red;
+}

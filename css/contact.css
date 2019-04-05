@@ -1,0 +1,30 @@
+#map{
+	margin: 50px auto;
+}
+form{
+	padding-bottom: 50px;
+}
+#bg{
+
+background: linear-gradient(to right, #f46b45, #eea849);
+height: 300px;
+
+}
+#bg h1{
+	text-align: center;
+	color: white;
+	line-height: 300px;
+}
+#gui:hover{
+	color: white;
+	
+}
+#loinhan{
+	border-color: #ff9900;
+}
+.list-group-item{
+	border-color: #ff9900;
+}
+.form-control{
+	border-color: #ff9900;
+}

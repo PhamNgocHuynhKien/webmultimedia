@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PTIT Multimedia</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<header>
+	<div id="headbar">
+		<p>Post and telecommunication institute of technology</p>
+		<p style="float: right;"><i class="fas fa-sign-in-alt"> </i>  Login In | Register</p>
+	</div>
+	<div style="clear: both;"></div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="Home.html"><img src="../image/logo1.png" alt="" width="40%" style="padding-left: 30px;"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mx-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Study <span class="sr-only">(current)</span></a>
+	      </li>
+	       <li class="nav-item active">
+	        <a class="nav-link" href="News.html">News & Notification <span class="sr-only">(current)</span></a>
+	      </li>
+	       <li class="nav-item active">
+	        <a class="nav-link" href="#">Teachers <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="About.html">About us <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="Contact.html">Contact <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0" style="padding-bottom: 0;">
+	      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+	      <button type="button" class="btn btn-warning">Search</button>
+	    </form>
+	  </div>
+	</nav>
+	
+		
+
+		<div id="bg">
+
+			<h1 class="wow bounceInDown">CONTACT</h1>
+			
+		</div>
+
+	</div>
+</header>
+
+<section>
+			
+<div id="map" style="width:1000px;height:500px;">
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d59610.06977227415!2d105.78285533468534!3d20.967394473977556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d20.951224399999997!2d105.84003829999999!4m5!1s0x3135accdcf7b0bd1%3A0xc1cf5dd00247628a!2zSOG7jWMgVmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IENow61uaCBWaeG7hW4gVGjDtG5nLCBLbTEwLCBIw6AgxJDDtG5nLCAxNTI2Mzg!3m2!1d20.9813266!2d105.7874813!5e0!3m2!1svi!2s!4v1553085059255" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<div class="container wow bounceInUp">
+<form action="">
+  <div class="row">
+    <div class="col-lg-4">
+      <ul class="list-group">
+		  <li class="list-group-item"><i class="fas fa-home "></i>Address: Km10, P. Mộ Lao, Hà Đông, Hà Nội, Việt Nam</li>
+		  <li class="list-group-item"><i class="fas fa-phone"></i>Phone:  04. 33525742</li>
+		  <li class="list-group-item"><i class="far fa-envelope"></i>Email: multimedia@ptit.edu.vn</li>
+		</ul>
+    </div>
+    <div class="col-lg-4">
+   
+  <div class="form-group"> 
+    
+    <input type="text" class="form-control" id="ten" placeholder="Enter your name">
+  </div>
+  <div class="form-group">
+    
+    <input type="text" class="form-control" id="diachi" placeholder="Enter your address">
+  </div>
+   <div class="form-group">
+    
+    <input type="text" class="form-control" id="nd" placeholder="Enter your subject">
+  </div>
+
+    </div>
+    <div class="col-lg-4" style="text-align: right;">
+      <textarea name="" id="loinhan" cols="40" rows="6" placeholder="Note"></textarea><br>
+      <button id="gui" type="submit" class="btn btn-outline-warning" >Send message</button>
+    </div>
+  </div>
+</form>
+ <script type="text/javascript">
+	   	var kt=4;
+	   	document.getElementById('gui').addEventListener('click',function(){
+	   		if (document.getElementById('ten').value.length==0) {
+	   			kt--;
+	   		}
+	   		if (document.getElementById('diachi').value.length==0) {
+	   			
+	   			kt--;
+	   		}
+	   		if (document.getElementById('nd').value.length==0) {
+	   			kt--;
+	   		}
+	   		if (document.getElementById('loinhan').value.length==0) {
+	   			kt--;
+	   		}
+	   		if (kt!=4) {
+	   			alert('Nhap lai')
+	   		}
+	   	});
+	   </script>
+</div>
+</section>
+<footer>
+	<div id="content5">
+		<div class="container">
+		  <div class="row">
+		    <div class="col-lg-4 ds">
+		      <h4 >Cousres</h4>
+		      <ul>
+		      	<li><i class="fas fa-graduation-cap"></i>Graphic Design 2D/3D</li>
+		      	<li><i class="fas fa-graduation-cap"></i>Cartoon Design 2D/3D</li>
+		      	<li><i class="fas fa-graduation-cap"></i>Game Design 2D/3D</li>
+		      	<li><i class="fas fa-graduation-cap"></i>R&D Product Design 2D/3D</li>
+		      	<li><i class="fas fa-graduation-cap"></i>Wed Design 2D/3D</li>
+		      	<li><i class="fas fa-graduation-cap"></i>Advertising Design 2D/3D</li>
+		      </ul>
+		    </div>
+		    <div class="col-lg-4 ds">
+		      <h4>Contact</h4>
+		      <ul>
+		      	<li><i class="fas fa-phone"></i>PHONE: 04. 33525742</li>
+		      	<li><i class="fas fa-envelope"></i>EMAIL: multimedia@ptit.edu.vn</li>
+		      	<li><i class="fas fa-map-marked-alt"></i>ADDRESS: Km10, P. Mộ Lao, Hà Đông, Hà Nội, Việt Nam</li>
+		      	<li class="icon"><i class="fab fa-facebook wow zoomInDown"></i>
+				     <i class="fab fa-github-square wow zoomInDown"></i>
+				     <i class="fab fa-youtube-square wow zoomInDown"></i>
+				     <i class="fab fa-twitter-square wow zoomInDown"></i>
+				 </li>
+		      
+		      </ul>
+		    </div>
+		    
+		    <div class="col-lg-4 ds">
+		      <h4>If you have anything question!</h4>
+		      <textarea name="" id="" cols="30" rows="4" placeholder="  You question ..."></textarea>
+		      <br>
+		      <button type="button" class="btn btn-primary" style="color: white; float: right;">Send</button>
+			</div>
+		    </div>
+		  </div>
+		</div>
+	<div id="content6">
+		<p>Made with HuynhKien, HoangHiep, TuanDuc © </p>
+	</div>
+</footer>
+
+
+	<script type="text/javascript" src="../js/wow.min.js"></script>
+	<script type="text/javascript">new WOW().init();</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+#map{
+	margin: 50px auto;
+}
+form{
+	padding-bottom: 50px;
+}
+#bg{
+
+background: linear-gradient(to right, #f46b45, #eea849);
+height: 300px;
+
+}
+#bg h1{
+	
+	text-align: center;
+	color: white;
+	line-height: 300px;
+}
+
+section{
+	padding:50px 0;
+}
+.list-group{
+	margin: 50px 0;
+}
+.info li{
+	color: #f46b45;
+}
+.info li:hover{
+	background: linear-gradient(to right, #f46b45, #eea849);
+	color: white; 
+}
+.media-body p{
+	text-align: left;
+}
+.time{
+	color: gray;
+	font-size: 14px;
+}
+.media{
+	padding-bottom:20px;
+margin:20px;
+border-bottom: 2px solid #f2f2f2;
+}
+.btn-warning{
+	color: white;
+}
+.pagination{
+	text-align: center;
+	width: 20%;
+	margin:0 auto;
+
+}
